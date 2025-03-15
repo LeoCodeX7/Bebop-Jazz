@@ -1,0 +1,213 @@
+body{
+    font-family: Open Sans;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.5em;
+    min-width: 1550px;
+    max-width: 1000000000000px;
+}
+#nu{
+    text-decoration: none;
+    color: black; 
+}
+#nu:hover{
+    cursor: default;
+}
+#trumpet{
+    height:70px;
+    background-color: hsl(0, 0%, 70%);
+    float:top;
+    margin: 0px;
+    border-style: none;
+    padding-left: 0px;
+    position:relative;
+    transform:translateX(-20px);
+    float: left;
+    transform:translate3d(-20px, -14px, 5px);
+    background-image: linear-gradient(to left, hsl(0, 0%, 70%), hsl(0, 0%, 100%) );  
+}
+#Musiker ul{
+    width: 200px;
+    margin: 0px;
+}
+.spotify{
+    width: 350px;
+    display:block;
+    height:100px;
+}
+hr{
+    
+    margin: 5px;
+    padding: 0px;
+    
+    color: hsl(0, 0%, 81%);
+}
+.navbar{
+    position: relative;
+    
+    display:flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 28%);
+}
+#Beboph1 h1{
+    text-align: center;
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    -webkit-text-stroke: 5px white;
+    background-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+.navbar ul{
+    background-color: hsl(0, 0%, 28%);
+    transform: translateX(-85px);
+    list-style-type: none;  
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    
+}
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    margin: 0px;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 45%);
+    box-shadow: 0px 0px 5px ;
+    transition: ease-in 0.2s;
+    transition: linear-gradient(to right, hsl(0, 0%, 100%), hsl(0, 0%, 80%) );   
+}
+.navbar li{
+    float: left;   
+}
+main{
+    margin: 15px;
+    
+}
+.box{
+    width: 500px;
+    height: auto;
+    box-shadow: 2px 3px 10px ;
+    border: 2px solid black;
+    border-radius: 10px;
+    border: hidden;
+    background-color: hsl(0, 0%, 100%);
+    padding-left: 10px;
+    display: inline-block;
+    transition: linear-gradient(to right, hsl(0, 0%, 100%), hsl(0, 0%, 60%) );
+}
+#h3swing{
+    font-size: 30px;;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#box1{
+    height:auto;
+    display: inline-block;  
+    margin-bottom: 15px; 
+   
+}
+#h3swing{
+    display:flex;
+    justify-content: center;
+}
+#box2{
+    transform: translateY(-650px);
+    float: right;
+    float: top;
+    margin: 0px;
+    overflow: hidden;
+}
+#box3{
+    margin: 15px;
+}
+#h31{
+    margin: 15px;
+    margin-left: 3px;
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    width: 454px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-400px)
+}
+#BS{
+    display:flex;
+    justify-content: center;
+    text-shadow: 2px 3px 30px black;
+}
+#Musiker ul li{
+    text-decoration: none;
+}
+#ConBS{
+    height: 600px;
+    max-width: 1956px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#CharlieSong{
+    height: 152px;
+    float: top;
+    font-size: 1em;
+    transform: translateY(-1100px)
+}
+#box1.box p{
+    margin:3px
+}
+#h3swing{
+    margin: 3px;
+   
+}
+.spotify{
+    height: 75px;
+}
+.pic{
+    border-radius: 6px;
+    border: 0px 0px 0px;
+    margin-left: 400px;
+    margin-right: 400px;
+    float: top;
+    
+}
+#Musiker{
+    display: flex;
+    height: 200px;
+    width:auto ;
+    margin-left:auto;
+    margin-right:0;
+    transform: translateX(-00px)
+}
+#Musiker ul li{
+    margin:10px;
+}
+.muul{
+    color: rgb(0, 0, 0);
+    width: 60px;
+    transform: rotateZ(90deg);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+}
+#unten{
+    font-size: 14px;
+    margin: 20px;
+    margin-top: 10%;
+    position: relative;
+    float: bottom;
+}
+#Muusiker{
+    margin-left:auto;
+    margin-right:auto;
+    width: 1850px;
+}
