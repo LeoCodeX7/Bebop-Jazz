@@ -5,6 +5,7 @@ body{
     font-size: 1.5em;
     min-width: 1550px;
     max-width: 1000000000000px;
+    height: 1339px;
 }
 #nu{
     text-decoration: none;
@@ -47,20 +48,17 @@ hr{
     
     display:flex;
     justify-content: center;
-    background-color: hsl(0, 0%, 28%);
+    background-color: hsl(208, 100%, 87%);
 }
 #Beboph1 h1{
     text-align: center;
     font-size: 70px;
     margin: 0;
     padding: 0;
-    text-transform: uppercase;
-    -webkit-text-stroke: 5px white;
-    background-color: black;
-    -webkit-text-stroke-width: 2px;
+    background-color: hsl(208, 100%, 70%);
 }
 .navbar ul{
-    background-color: hsl(0, 0%, 28%);
+    background-color: hsl(208, 100%, 87%);
     transform: translateX(-85px);
     list-style-type: none;  
     margin: 0px;
@@ -69,7 +67,7 @@ hr{
     
 }
 .navbar a{
-    color:white;
+    color:rgb(0, 0, 0);
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -77,8 +75,8 @@ hr{
     margin: 0px;
 }
 .navbar a:hover{
-    background-color: hsl(0, 0%, 45%);
-    box-shadow: 0px 0px 5px ;
+    background-color: hsl(208, 100%, 81%);
+    box-shadow: 0px 0px 5px hsl(0, 0%, 100%);
     transition: ease-in 0.2s;
     transition: linear-gradient(to right, hsl(0, 0%, 100%), hsl(0, 0%, 80%) );   
 }
@@ -172,7 +170,7 @@ main{
 }
 .pic{
     border-radius: 6px;
-    border: 0px 0px 0px;
+    border: 0px 0px 0px;   
     margin-left: 400px;
     margin-right: 400px;
     float: top;
@@ -181,10 +179,10 @@ main{
 #Musiker{
     display: flex;
     height: 200px;
-    width:auto ;
+    width:350px ;
     margin-left:auto;
-    margin-right:0;
-    transform: translateX(-00px)
+    margin-right:auto;
+    transform: translateX(70px)
 }
 #Musiker ul li{
     margin:10px;
@@ -201,13 +199,20 @@ main{
 }
 #unten{
     font-size: 14px;
-    margin: 20px;
-    margin-top: 10%;
-    position: relative;
-    float: bottom;
+    margin-top: 30%;
+    margin: 10px;
+    
 }
 #Muusiker{
     margin-left:auto;
     margin-right:auto;
     width: 1850px;
 }
+.text{
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: hsl(208, 100%, 87%);
+    padding: 7px ;
+}
+
